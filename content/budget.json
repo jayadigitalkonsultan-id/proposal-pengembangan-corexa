@@ -1,0 +1,76 @@
+{
+  "currency": "IDR",
+  "total": 15000000,
+  "costs": [
+    [
+      "Audit & pemetaan perbaikan",
+      "Pemeriksaan sistem, reproduksi kendala, dan spesifikasi pekerjaan.",
+      1000000
+    ],
+    [
+      "Template & impor data",
+      "Template peserta dan soal, validasi, pratinjau, serta laporan impor.",
+      1500000
+    ],
+    [
+      "Pengacakan pilihan jawaban",
+      "Pemetaan pilihan dan kunci yang konsisten pada setiap percobaan.",
+      750000
+    ],
+    [
+      "Pemulihan sesi ujian",
+      "Melanjutkan percobaan yang sama setelah gangguan jaringan atau browser.",
+      1750000
+    ],
+    [
+      "Pengaturan waktu 100 menit",
+      "Sinkronisasi batas waktu di server dan timer peserta.",
+      750000
+    ],
+    [
+      "Penyimpanan jawaban",
+      "Status simpan terkonfirmasi, pengiriman ulang, dan pencegahan duplikasi.",
+      1750000
+    ],
+    [
+      "Akurasi kunci & penilaian",
+      "Validasi kunci, perhitungan skor, dan pencocokan dengan nilai acuan.",
+      1250000
+    ],
+    [
+      "Stabilitas halaman ujian",
+      "Evaluasi keluar sendiri, auto-submit, klik kanan, dan scroll.",
+      1250000
+    ],
+    [
+      "Penanganan perubahan IP",
+      "Validasi sesi yang sah ketika peserta berganti jaringan.",
+      750000
+    ],
+    [
+      "Monitoring administrator",
+      "Status peserta, detail jawaban, kunci, nilai, dan riwayat aktivitas.",
+      1500000
+    ],
+    [
+      "Pengujian & pendampingan UAT",
+      "Uji fungsi, integrasi, gangguan, beban, dan retest perbaikan.",
+      1250000
+    ],
+    [
+      "Buku saku & pelatihan",
+      "Panduan operasional PDF dan satu sesi pelatihan administrator.",
+      750000
+    ],
+    [
+      "Penerapan & serah terima",
+      "Penerapan produksi, pemeriksaan akhir, dan paket hasil pekerjaan.",
+      750000
+    ]
+  ],
+  "installments": [
+    4500000,
+    6000000,
+    4500000
+  ]
+}

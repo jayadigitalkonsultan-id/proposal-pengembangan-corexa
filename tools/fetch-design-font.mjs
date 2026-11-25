@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+await fs.mkdir('content/fonts',{recursive:true});
+const response=await fetch('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap',{headers:{'User-Agent':'Mozilla/5.0 Chrome/131.0.0.0 Safari/537.36'}});
+if(!response.ok)throw new Error('Font CSS '+response.status);
+const css=await response.text();
+await fs.writeFile('.tools/reference/font.css',css);
+const url='https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf';
+const font=await fetch(url);if(!font.ok)throw new Error('Font download '+font.status);
+await fs.writeFile('content/fonts/manrope-variable.ttf',Buffer.from(await font.arrayBuffer()));
+const license=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt');if(!license.ok)throw new Error('License download '+license.status);
+await fs.writeFile('content/fonts/OFL-Manrope.txt',await license.text());
+console.log(JSON.stringify({weight:'200 800',bytes:(await fs.stat('content/fonts/manrope-variable.ttf')).size}));

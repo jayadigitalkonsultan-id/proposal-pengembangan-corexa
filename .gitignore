@@ -1,5 +1,17 @@
-# Object file
+node_modules/
+.tools/
+artifacts/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+GitHub-Pages-Corexa.zip
+# One-time local source extraction and reference inspection.
+tools/read-sources.mjs
+tools/inspect-reference.mjs
+# Preserve the initial repository's ignore rules.
 *.o
-
-# Ada Library Information
 *.ali

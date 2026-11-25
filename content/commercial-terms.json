@@ -1,0 +1,22 @@
+{
+  "documentCode": "COREXA-JDK-2026-R4",
+  "version": "4.0",
+  "date": "25 November 2026",
+  "validUntil": "25 Desember 2026",
+  "durationWeeks": 8,
+  "maintenanceDays": 60,
+  "minorRevisionRounds": 2,
+  "invoiceDueCalendarDays": 14,
+  "changePolicy": {
+    "majorChangesAreChargeable": true,
+    "writtenApprovalBeforeWork": true,
+    "defectCorrectionWithinBaselineIsIncluded": true,
+    "pricing": "Penawaran biaya tetap per Change Request, disetujui tertulis sebelum pelaksanaan.",
+    "examples": [
+      "Penambahan modul, fitur, jenis soal, atau alur bisnis di luar baseline yang disetujui.",
+      "Perubahan struktur data, teknologi, atau arsitektur akibat kebutuhan baru setelah baseline disetujui.",
+      "Integrasi baru, aplikasi mobile, proctoring, SSO, atau sistem pihak ketiga di luar lingkup.",
+      "Perombakan desain atau proses yang telah disetujui; migrasi historis besar atau penilaian ulang dengan kebijakan baru."
+    ]
+  }
+}

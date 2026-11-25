@@ -1,0 +1,65 @@
+PROPOSAL COREXA — CV JAYA DIGITAL KONSULTAN
+Versi 4.0 · 25 November 2026
+Kode proposal formal: COREXA-JDK-2026-R4
+
+DOKUMEN UNTUK KLIEN
+1. Proposal-CorExa-JDK.pdf
+   Proposal formal A4, 28 halaman, lengkap dengan lampiran persetujuan
+   dan formulir Change Request yang bisa diisi langsung di PDF.
+2. Lembar-Persetujuan-CorExa.pdf
+   Lampiran persetujuan terpisah, 2 halaman: identitas, keputusan,
+   pernyataan pemahaman, catatan, serta ruang tanda tangan para pihak.
+3. Form-Perubahan-Lingkup-CorExa.pdf
+   Formulir CR, 1 halaman: kebutuhan, hasil analisis, lingkup tambahan,
+   biaya, dampak jadwal, termin, dan persetujuan para pihak.
+4. Company-Profile-JDK.pdf
+   Company profile untuk mendukung penelaahan identitas perusahaan.
+
+CARA MENGISI
+Buka PDF di pembaca yang mendukung formulir (misalnya Chrome, Edge,
+atau Adobe Acrobat Reader). Klik kolom kosong, isi identitas, pilih
+keputusan, dan tandai pernyataan yang sesuai. Simpan salinan PDF lalu
+buka kembali untuk memastikan isian tersimpan. Tidak ada pilihan
+persetujuan yang diisi otomatis pada file yang dibagikan.
+
+Nama dan jabatan pada kedua halaman persetujuan saling terhubung.
+Tanda tangan dapat dibubuhkan pada cetakan atau melalui aplikasi
+penandatanganan PDF yang digunakan para pihak. Jika catatan tidak
+cukup di kolom yang tersedia, tambahkan lampiran dan sebutkan acuannya.
+Mengisi formulir tidak mengirim data atau persetujuan secara otomatis.
+
+KETENTUAN UTAMA
+Nilai paket jasa Rp15.000.000; seluruh 10 kebutuhan surat tercakup.
+Termin: Rp4.500.000 / Rp6.000.000 / Rp4.500.000 sesuai kemajuan.
+Estimasi 8 minggu setelah akses dan kesepakatan siap.
+Pemeliharaan korektif 60 hari kalender sejak BAST.
+Dua putaran revisi minor terkoordinasi termasuk pada tahap UAT.
+Perubahan mayor dikenai biaya tambahan melalui CR, penawaran, dan
+persetujuan tertulis sebelum pelaksanaan. Bug terhadap baseline yang
+disepakati ditangani sesuai ketentuan tanpa mengurangi kuota revisi.
+Perlakuan pajak dikonfirmasi pada kesepakatan final.
+
+WEBSITE DAN PRATINJAU
+index.html — proposal web modern, dengan tombol unduh PDF formal.
+company-profile.html — profil perusahaan dengan desain seragam.
+formal-proposal.html — pratinjau tata letak dokumen formal; gunakan
+PDF hasil ekspor untuk memperoleh kolom isian PDF yang interaktif.
+Letakkan HTML dan PDF dalam folder yang sama agar tautan berfungsi.
+
+SUMBER
+Surat 061/UM/Ka.Prodi/FEB/X/2026 tanggal 20 Oktober 2026;
+COMPANY PROFILE CV JAYA DIGITAL KONSULTAN.pdf; JDK LOGO TERBARU.png.
+Data perusahaan mengikuti dokumen yang diberikan.
+
+PEMBUATAN ULANG UNTUK PENGELOLA
+npm.cmd run build — membuat HTML dan tiga PDF formal dengan formulir.
+npm.cmd run verify — memeriksa website, unduhan PDF, tata letak,
+kolom formulir, nilai biaya, serta kemampuan isian disimpan kembali.
+Hasil uji di artifacts/ menggunakan data contoh dan tidak dibagikan.
+
+Sumber utama: tools/build-document.mjs; tools/build-formal-proposal.mjs;
+content/formal-proposal.css; content/commercial-terms.json;
+content/technical-details.json; content/proposal.css;
+content/editorial.css; content/proposal.js.
+Font Manrope menggunakan SIL Open Font License; lisensi disertakan
+di HTML dan OFL-Manrope.txt pada paket unduhan.

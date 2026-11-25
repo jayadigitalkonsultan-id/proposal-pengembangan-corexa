@@ -1,0 +1,16 @@
+{
+  "name": "proposal-corexa-jdk",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-all.mjs",
+    "verify": "node tools/verify-all.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "1.2.1",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.5.438",
+    "playwright": "1.65.1"
+  }
+}
